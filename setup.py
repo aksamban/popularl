@@ -15,7 +15,7 @@ setup(
     description="A Meta-RL implementation using MAML and VAE.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourgithub/maml-vae-metarl",  # Change to your repo
+    url="https://github.com/aksamban/popularl",  # Change to your repo
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

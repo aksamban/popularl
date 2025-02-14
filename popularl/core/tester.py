@@ -1,7 +1,7 @@
-from envs.randpole_gen import get_cartpole, CustomWrapper
-from models.task_embedder import TaskEmbedder
-from models.grad_callback import CustomCallback
-from models.vae import VAE
+from .envs.randpole_gen import get_cartpole, CustomWrapper
+from .models.task_embedder import TaskEmbedder
+from .models.grad_callback import CustomCallback
+from .models.vae import VAE
 import gymnasium as gym
 import torch
 import numpy as np

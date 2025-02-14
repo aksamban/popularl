@@ -1,6 +1,6 @@
-from envs.randpole_gen_maml import CustomWrapper
-from models.task_embedder import TaskEmbedder
-from models.grad_callback_maml import CustomCallback
+from .envs.randpole_gen_maml import CustomWrapper
+from .models.task_embedder import TaskEmbedder
+from .models.grad_callback_maml import CustomCallback
 import gymnasium as gym
 import torch
 import numpy as np

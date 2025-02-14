@@ -1,6 +1,6 @@
-from envs.randpole_gen_maml import get_cartpole, CustomWrapper
-from models.task_embedder import TaskEmbedder
-from models.grad_callback_maml import CustomCallback
+from .envs.randpole_gen_maml import get_cartpole, CustomWrapper
+from .models.task_embedder import TaskEmbedder
+from .models.grad_callback_maml import CustomCallback
 import torch
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv

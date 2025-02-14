@@ -8,7 +8,6 @@ setup(
         "torch",
         "gymnasium",
         "numpy",
-        "gymnasium[box2d]",
         "stable_baselines3",  # Remove if unused
     ],
     author="Aadhavan",
